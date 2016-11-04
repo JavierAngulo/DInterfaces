@@ -121,9 +121,3 @@ public class Person {
         return birthday;
     }
 }
-
-/*
- * Explicación del código
-Con JavaFX es habitual usar Propiedades para todos los atributos de un clase usada como modelo. Una Propiedad permite, entre otras cosas, recibir notificaciones automáticamente cuando el valor de una variable cambia (por ejemplo si cambia lastName. Esto ayuda a mantener sincronizados la vista y los datos. Para aprender más sobre Propiedades lee Using JavaFX Properties and Binding.
-LocalDate, el tipo que usamos para especificar la fecha de nacimiento (birthday) es parte de la nueva API de JDK 8 para la fecha y la hora.
-*/
